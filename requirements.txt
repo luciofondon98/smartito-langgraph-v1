@@ -3,4 +3,6 @@ openai
 typing-extensions
 python-dotenv
 streamlit
-requests 
+requests
+pandas
+numpy 
