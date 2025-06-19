@@ -73,7 +73,9 @@ with col1:
                 raw_data="",
                 final_answer="",
                 api_documentation=ENDPOINTS_DOC,
-                business_context=BUSINESS_CONTEXT
+                business_context=BUSINESS_CONTEXT,
+                conversation_history=[],
+                last_query_context={}
             )
             
             # Ejecutar el flujo
